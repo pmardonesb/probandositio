@@ -2,6 +2,7 @@ from flask import Flask,render_template
 
 app = Flask(__name__,template_folder='templates') #Creo una instancia de Flask, defiendo la carpeta "templates" para acceder a las plantillas html
 
+app.config['SERVER_NAME'] = 'geofchile.netlify.app'
 ########################################
 ########### PAGINA PRINCIPAL ###########
 ########################################
